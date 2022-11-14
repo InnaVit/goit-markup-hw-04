@@ -141,6 +141,7 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+  
  
     
 }
@@ -194,6 +195,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 4px;
 }
 
 
@@ -311,12 +313,13 @@ body {
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: var(--accent-color);
-}
-
-.team-soc-link:hover,
-.team-soc-link:focus .team-soc-item {
     fill: var(--white-color);
 }
+
+/* .team-soc-link:hover,
+.team-soc-link:focus .team-soc-item {
+    fill: var(--white-color);
+} */
 
 
 /* ---------------------CLIENTS--------------- */
@@ -341,18 +344,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: #AFB1B8;
+    color: #AFB1B8;
+
 }
 
 .clients-link:hover,
 .clients-link:focus {
     border-color: var(--accent-color);
+    fill: var(--accent-color);
+    
 }
 
-.clients-link:hover,
+/* .clients-link:hover,
 .clients-link:focus .clients-item {
     fill:  var(--accent-color);
-}
+} */
 
 /* ---------------FOOTER----------------- */
 .footer {
